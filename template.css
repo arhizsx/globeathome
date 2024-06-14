@@ -25,7 +25,7 @@ max-width: 330px;
 padding: 15px;
 margin-top: auto;
 margin-bottom: auto;
-margin-left: auto;
+margin-left: 150px;
 }
     
 .form-signin .form-floating:focus-within {
@@ -35,9 +35,5 @@ z-index: 2;
 @media (min-width: 768px) {
     .bd-placeholder-img-lg {
         font-size: 3.5rem;
-    }
-    .form-signin {
-        margin-left: 150px;
-
     }
 }
