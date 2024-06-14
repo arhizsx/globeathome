@@ -17,10 +17,10 @@ $result = $conn->query($sql);
 $conn->close();
 
 if ($result->num_rows > 0) {
-    return true;
+    echo "FOUND: " . $_POST["cellnumber"];
 } 
 else {
-    return false;
+    echo "NOT FOUND: " . $_POST["cellnumber"];
 }
 
 ?> 
