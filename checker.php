@@ -48,23 +48,28 @@ $conn->close();
 
     </head>
     <body class="text-center" data-new-gr-c-s-check-loaded="14.1181.0" data-gr-ext-installed="">    
-        <div>
-        <img class="mb-4" src="/gfiberplan.png" height="120" alt="">
-        </div>
-        <?php 
-            if( $found ){
-        ?>
-            <div>
-            <a href="https://new.globe.com.ph/gfiber">https://new.globe.com.ph/gfiber</a>
-            </div>
-        <?php 
-            } else {
-        ?>  
-            <div>
-            Number not found
-            </div>
-        <?php 
-            }
-        ?>
+        <main class="form-signin">
+            <form action="/checker.php" method="post">
+
+                    <div>
+                        <img class="mb-4" src="/gfiberplan.png" height="120" alt="">
+                    </div>
+                <?php 
+                    if( $found ){
+                ?>
+                    <div>
+                        <a href="https://new.globe.com.ph/gfiber">https://new.globe.com.ph/gfiber</a>
+                    </div>
+                <?php 
+                    } else {
+                ?>  
+                    <div>
+                        Number not found
+                    </div>
+                <?php 
+                    }
+                ?>
+            </form>
+        </main>
     </body>
 </html>
