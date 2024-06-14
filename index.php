@@ -25,7 +25,7 @@
                 <img class="mb-4" src="/gfiberplan.png" height="120" alt="">
                 <h1 class="mb-3 fw-normal" style="font-size: 1.5rem; line-height: 2rem; --tw-text-opacity: 1; color: rgb(0 98 153 / var(--tw-text-opacity));">Number Verifier</h1>
                 <div class="form-floating">
-                    <input type="text" class="form-control mb-3" id="floatingInput" placeholder="" name="cellnumber">
+                    <input type="text" class="form-control mb-3" id="floatingInput" placeholder="09178761234" name="cellnumber">
                     <label for="floatingInput">Mobile Number</label>
                 </div>
                 <button class="w-100 btn btn-lg" type="submit" style="background-color: #ff4bce !important; color: white;">Check</button>
