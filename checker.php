@@ -59,7 +59,7 @@ $conn->close();
                 ?>
                     <div style="text-decoration: none; font-size: 2em;  --tw-text-opacity: 1; color: rgb(0 98 153 / var(--tw-text-opacity))">
                         <p>The mobile number you entered is QUALIFIED</p>
-                        <a class="w-100 btn btn-lg mt-3" href="https://new.globe.com.ph/gfiber" style="background-color: #ff4bce !important; color: white;">Apply Now</a>
+                        <a class="w-100 btn btn-lg mt-3 mb-3" href="https://new.globe.com.ph/gfiber" style="background-color: #ff4bce !important; color: white;">Apply Now</a>
                     </div>
                 <?php 
                     } else {
