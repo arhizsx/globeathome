@@ -48,7 +48,7 @@ $conn->close();
 
     </head>
     <body class="text-center" data-new-gr-c-s-check-loaded="14.1181.0" data-gr-ext-installed="">    
-        <main class="form-checker">
+        <main class="form-signin">
             <form action="/checker.php" method="post">
 
                     <div>
@@ -58,7 +58,8 @@ $conn->close();
                     if( $found ){
                 ?>
                     <div style="text-decoration: none; font-size: 2em;  --tw-text-opacity: 1; color: rgb(0 98 153 / var(--tw-text-opacity))">
-                        <a  href="https://new.globe.com.ph/gfiber">https://new.globe.com.ph/gfiber</a>
+                        <p>The mobile number you entered is QUALIFIED</p>
+                        <a class="w-100 btn btn-lg mt-3" href="https://new.globe.com.ph/gfiber" style="background-color: #ff4bce !important; color: white;">Apply Now</a>
                     </div>
                 <?php 
                     } else {
@@ -69,7 +70,7 @@ $conn->close();
                 <?php 
                     }
                 ?>
-                <a class="w-100 btn btn-lg mt-3" href="/" style="background-color: #ff4bce !important; color: white;">Check Another</a>
+                <a href="/">Check Another</a>
             </form>
         </main>
     </body>
