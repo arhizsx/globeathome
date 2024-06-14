@@ -29,7 +29,7 @@
                     <label for="floatingInput">Mobile Number</label>
                     <small>Please use this format 09178761234</small>
                 </div>
-                <button class="w-100 btn btn-lg" type="submit" style="background-color: #ff4bce !important; color: white;">Check</button>
+                <button class="w-100 btn btn-lg btn-primary" type="submit">Check</button>
                 <p class="mt-5 mb-3 text-muted">© Globe At Home 2024</p>
             </form>
         </main>

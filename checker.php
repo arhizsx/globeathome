@@ -67,7 +67,7 @@ $conn->close();
                             }
                         ?>
 
-                        <a class="w-100 btn btn-lg mt-3 mb-3" href="https://new.globe.com.ph/gfiber" style="background-color: #ff4bce !important; color: white;">Apply Now</a>
+                        <a class="w-100 btn btn-lg mt-3 mb-3  btn-primary" href="https://new.globe.com.ph/gfiber">Apply Now</a>
                     </div>
                 <?php 
                     } else {
