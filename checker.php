@@ -48,7 +48,7 @@ $conn->close();
 
     </head>
     <body class="text-center" data-new-gr-c-s-check-loaded="14.1181.0" data-gr-ext-installed="">    
-        <main class="form-signin">
+        <main class="form-checker">
             <form action="/checker.php" method="post">
 
                     <div>
