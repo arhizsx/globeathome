@@ -73,17 +73,13 @@ body {
     </head>
     <body class="text-center" data-new-gr-c-s-check-loaded="14.1181.0" data-gr-ext-installed="">    
         <main class="form-signin">
-            <form>
+            <form action="/checker.php" method="post">
                 <img class="mb-4" src="/gfibertayo.png" height="120" alt="">
                 <h1 class="mb-3 fw-normal" style="font-size: 1.5rem; line-height: 2rem; --tw-text-opacity: 1; color: rgb(0 98 153 / var(--tw-text-opacity));">Number Verifier</h1>
                 <div class="form-floating">
                     <input type="text" class="form-control mb-3" id="floatingInput" placeholder="name@example.com">
                     <label for="floatingInput">Mobile Number</label>
                 </div>
-                <!-- <div class="form-floating">
-                    <input type="text" class="form-control mb-3" id="floatingPassword" placeholder="Password">
-                    <label for="floatingPassword">Agent ID</label>
-                </div> -->
                 <button class="w-100 btn btn-lg" type="submit" style="background-color: #ff4bce !important; color: white;">Check</button>
                 <p class="mt-5 mb-3 text-muted">© Globe At Home 2024</p>
             </form>
