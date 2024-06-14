@@ -12,7 +12,7 @@ height: 100%;
 
 body {
 display: flex;
-align-items: center;
+align-items: left;
 padding-top: 40px;
 padding-bottom: 40px;
 background-image:  url('/step-1-bg.jpeg');
