@@ -65,7 +65,7 @@ $conn->close();
                     } else {
                 ?>  
                     <div style="text-decoration: none; font-size: 2em;  --tw-text-opacity: 1; color: rgb(0 98 153 / var(--tw-text-opacity))">
-                        Number Not Found
+                        Number Not Qualified
                     </div>
                 <?php 
                     }
