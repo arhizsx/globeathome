@@ -27,6 +27,7 @@
                 <div class="form-floating">
                     <input type="text" class="form-control mb-3" id="floatingInput" placeholder="09178761234" name="cellnumber">
                     <label for="floatingInput">Mobile Number</label>
+                    <small>Please use this format 09178761234</small>
                 </div>
                 <button class="w-100 btn btn-lg" type="submit" style="background-color: #ff4bce !important; color: white;">Check</button>
                 <p class="mt-5 mb-3 text-muted">© Globe At Home 2024</p>
