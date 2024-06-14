@@ -69,6 +69,7 @@ $conn->close();
                 <?php 
                     }
                 ?>
+                <a class="w-100 btn btn-lg" href="/" style="background-color: #ff4bce !important; color: white;">Check Another</a>
             </form>
         </main>
     </body>
