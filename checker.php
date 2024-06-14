@@ -57,13 +57,13 @@ $conn->close();
                 <?php 
                     if( $found ){
                 ?>
-                    <div>
-                        <a href="https://new.globe.com.ph/gfiber">https://new.globe.com.ph/gfiber</a>
+                    <div style="text-decoration: none; font-size: 2em;">
+                        <a  href="https://new.globe.com.ph/gfiber">https://new.globe.com.ph/gfiber</a>
                     </div>
                 <?php 
                     } else {
                 ?>  
-                    <div>
+                    <div style="text-decoration: none; font-size: 2em;">
                         Number not found
                     </div>
                 <?php 
