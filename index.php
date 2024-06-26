@@ -32,7 +32,6 @@
                 align-items: center;
                 padding-top: 40px;
                 padding-bottom: 40px;
-                opacity: 0.5;
             }
 
             .form-signin {
