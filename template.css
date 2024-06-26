@@ -7,23 +7,24 @@
 }
 html,
 body {
-height: 100%;
+    height: 100%;
 }
 
 body {
-display: flex;
-align-items: center;
-padding-top: 40px;
-padding-bottom: 40px;
-background-image:  url('/step-1-bg.jpeg');
-background-size: cover;
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-image:  url('/step-1-bg.jpeg');
+    opacity: 0.5;
+    background-size: cover;
 }
 
 .form-signin {
-width: 100%;
-max-width: 330px;
-padding: 15px;
-margin: auto;
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
 }
     
 .form-signin .form-floating:focus-within {
