@@ -83,7 +83,7 @@ $conn->close();
             <form action="/checker.php" method="post">
 
                     <div>
-                        <img class="mb-4" src="/gfiberplan.png" height="120" alt="">
+                        <img class="mb-4" src="/gfiberplan_smaller.png" height="120" alt="">
                     </div>
                 <?php 
                     if( $found ){
