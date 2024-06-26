@@ -1,3 +1,30 @@
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "YchangThird1!";
+$dbname = "cells";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+// Check connection
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
+
+$sql = "SELECT * FROM mobile WHERE cellnumber='" . $_POST['cellnumber'] . "'";
+$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+    $found = true;
+} 
+else {
+    $found = false;
+}
+
+$conn->close();
+
+?> 
+
 
 <html lang="en">
     <head>
@@ -21,7 +48,7 @@
 
     </head>
     <body class="text-center" data-new-gr-c-s-check-loaded="14.1181.0" data-gr-ext-installed="">    
-        <!-- <main class="form-signin">
+        <main class="form-signin">
             <form action="/checker.php" method="post">
 
                     <div>
@@ -53,6 +80,6 @@
                 ?>
                 <a href="/">Check Another</a>
             </form>
-        </main> -->
+        </main>
     </body>
 </html>
