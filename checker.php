@@ -42,9 +42,40 @@ $conn->close();
         <link data-n-head="ssr" rel="icon" type="image/x-icon" href="/favicon.ico">
 
         <style>
+
+            .bd-placeholder-img {
+                font-size: 1.125rem;
+                text-anchor: middle;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                user-select: none;
+            }
+            html,
+            body {
+                height: 100%;
+            }
+
+            body {
+                display: flex;
+                align-items: center;
+                padding-top: 40px;
+                padding-bottom: 40px;
+            }
+
+            .form-signin {
+                width: 100%;
+                max-width: 330px;
+                padding: 15px;
+                margin: auto;
+            }
+                
+            .form-signin .form-floating:focus-within {
+                z-index: 2;
+            }
+            
         </style>    
         <!-- Custom styles for this template -->
-        <link href="/template.css" rel="stylesheet">
+        <!-- <link href="/template.css" rel="stylesheet"> -->
 
     </head>
     <body class="text-center" data-new-gr-c-s-check-loaded="14.1181.0" data-gr-ext-installed="">    
