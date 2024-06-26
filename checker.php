@@ -14,11 +14,11 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-
-
 $sql = "SELECT * FROM mobile WHERE cellnumber='" . $_POST['cellnumber'] . "'";
+print_r( $sql );
+
+
 $result = $conn->query($sql);
-print_r( $result );
 
 if ($result->num_rows > 0) {
     $found = true;
