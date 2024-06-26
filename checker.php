@@ -59,21 +59,17 @@ $conn->close();
                 ?>
                     <div style="text-decoration: none; font-size: 2em;  --tw-text-opacity: 1; color: rgb(0 98 153 / var(--tw-text-opacity))">
                         <p>The mobile number you entered is QUALIFIED</p>
-                        <?php 
-                            if( $_POST["cellnumber"] == "09857693619"){
-                        ?>
-                            <H1>I Miss You Jasmine...</H1>
-                        <?php 
-                            }
-                        ?>
-
                         <a class="w-100 btn btn-lg mt-3 mb-3  btn-primary" href="https://new.globe.com.ph/gfiber">Apply Now</a>
                     </div>
                 <?php 
                     } else {
                 ?>  
+
+
+
                     <div style="text-decoration: none; font-size: 2em;  --tw-text-opacity: 1; color: rgb(0 98 153 / var(--tw-text-opacity))">
-                        Number Not Qualified
+                        <p>Number Not Qualified</p>
+                        <a class="w-100 btn btn-lg mt-3 mb-3  btn-primary" href="https://new.globe.com.ph/gfiber/seasonal-offers?filter_tags=seasonexclusive&utm_source=social&utm_medium=social&utm_campaign=fisher">Apply Now</a>
                     </div>
                 <?php 
                     }
