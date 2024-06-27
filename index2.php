@@ -14,6 +14,6 @@
 
     </head>
     <body>
-    <iframe src="http://sam.globe.com.ph" frameborder="0" style="overflow:hidden;height:100%;width:100%" height="100%" width="100%"></iframe>
+    <iframe src="https://sam.globe.com.ph" frameborder="0" style="overflow:hidden;height:100%;width:100%" height="100%" width="100%"></iframe>
     </body>
 </html>
