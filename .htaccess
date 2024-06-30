@@ -1,2 +1,0 @@
-RewriteCond %{HTTP_HOST} ^globeathome.online
-RewriteRule ^(.*) http://sam.globe.com.ph/$1 [P]

@@ -78,32 +78,30 @@ $conn->close();
         <!-- <link href="/template.css" rel="stylesheet"> -->
 
     </head>
-    <body class="text-center" data-new-gr-c-s-check-loaded="14.1181.0" data-gr-ext-installed="">    
+    <body class="text-center">    
         <main class="form-signin">
-            <form action="/checker.php" method="post">
 
-                    <div>
-                        <img class="mb-4" src="/gfiberplan_smaller.png" height="120" alt="">
-                    </div>
-                <?php 
-                    if( $found ){
-                ?>
-                    <div style="text-decoration: none; font-size: 2em;  --tw-text-opacity: 1; color: rgb(0 98 153 / var(--tw-text-opacity))">
-                        <p>The mobile number you entered is QUALIFIED</p>
-                        <a class="w-100 btn btn-lg mt-3 mb-3  btn-primary" href="https://new.globe.com.ph/gfiber/exclusives?filter_tags=1MSF">Apply Now</a>
-                    </div>
-                <?php 
-                    } else {
-                ?>  
-                    <div style="text-decoration: none; font-size: 2em;  --tw-text-opacity: 1; color: rgb(0 98 153 / var(--tw-text-opacity))">
-                        <p>Number Not Qualified</p>
-                        <a class="w-100 btn btn-lg mt-3 mb-3  btn-primary" href="https://new.globe.com.ph/gfiber/seasonal-offers?filter_tags=seasonexclusive&utm_source=social&utm_medium=social&utm_campaign=fisher">Apply Now</a>
-                    </div>
-                <?php 
-                    }
-                ?>
-                <a href="/">Check Another</a>
-            </form>
+            <div>
+                <img class="mb-4" src="/broadband/gfiberplan_smaller.png" height="120" alt="">
+            </div>
+            <?php 
+                if( $found ){
+            ?>
+                <div style="text-decoration: none; font-size: 2em;  --tw-text-opacity: 1; color: rgb(0 98 153 / var(--tw-text-opacity))">
+                    <p>The mobile number you entered is QUALIFIED</p>
+                    <a class="w-100 btn btn-lg mt-3 mb-3  btn-primary" href="https://new.globe.com.ph/gfiber/exclusives?filter_tags=1MSF">Apply Now</a>
+                </div>
+            <?php 
+                } else {
+            ?>  
+                <div style="text-decoration: none; font-size: 2em;  --tw-text-opacity: 1; color: rgb(0 98 153 / var(--tw-text-opacity))">
+                    <p>Number Not Qualified</p>
+                    <a class="w-100 btn btn-lg mt-3 mb-3  btn-primary" href="https://new.globe.com.ph/gfiber/seasonal-offers?filter_tags=seasonexclusive&utm_source=social&utm_medium=social&utm_campaign=fisher">Apply Now</a>
+                </div>
+            <?php 
+                }
+            ?>
+            <a href="/">Check Another</a>
         </main>
     </body>
 </html>

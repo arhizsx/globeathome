@@ -50,10 +50,10 @@
         <!-- <link href="/template.css" rel="stylesheet"> -->
 
     </head>
-    <body class="text-center" data-new-gr-c-s-check-loaded="14.1181.0" data-gr-ext-installed="">    
+    <body class="text-center">    
         <main class="form-signin">
-            <form action="/checker.php" method="post">
-                <img class="mb-4" src="/gfiberplan_smaller.png" height="120" alt="">
+            <form action="/broadband/checker.php" method="post">
+                <img class="mb-4" src="/broadband/gfiberplan_smaller.png" height="120" alt="">
                 <h1 class="mb-3 fw-normal" style="font-size: 1.5rem; line-height: 2rem; --tw-text-opacity: 1; color: rgb(0 98 153 / var(--tw-text-opacity));">Number Verifier</h1>
                 <div class="form-floating  mb-3">
                     <input type="text" class="form-control" id="floatingInput" placeholder="09178761234" name="cellnumber">
