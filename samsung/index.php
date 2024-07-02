@@ -16,7 +16,17 @@
 </head>
 <body  class="d-flex align-items-center justify-content-center" style="min-height: 100vh;">
     <div style="max-width: 640px; margin: auto;">
+
+
         <img src="header.jpg" width="100%" />
+
+        <div class="border rounded-3">
+            <H5>GPF X SAMSUNG</H5>
+            <p>Kindly fill out this form for your Free GlobeFiber Prepaid</p>
+            <p>Please nominate at least 2 addresses for serviceability check</p>
+            <p>*Bundle of GFiber Prepaid will be on the serviceability of the nominated address</p>
+        </div>
+
     </div>
 </body>
 
