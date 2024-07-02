@@ -14,16 +14,13 @@
 </style>
 
 </head>
-<body>
-
-<form>
-    <div class="form-body">
+<body  class="d-flex align-items-center justify-content-center ">
+    <div style="width: 400px;">
         <select class="form-control">
             <option>c</option>
         </select>
     </div>
-</form>
-
+</body>
 
 </body>
 </html>
