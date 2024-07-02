@@ -16,7 +16,7 @@
 </head>
 <body  class="d-flex align-items-center justify-content-center" style="min-height: 100vh;">
     <div style="max-width: 400px; margin: auto;">
-        <img src="header.jpg" width="auto" />
+        <img src="header.jpg" width="100%" />
     </div>
 </body>
 
