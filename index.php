@@ -1,5 +1,6 @@
 <?php 
 
-echo "Hello World!";
+header("Location: https://sam.globe.com.ph/broadband");
+die();
 
 ?>
