@@ -6,62 +6,78 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel="stylesheet" href="style.css">
+
+<style>
+.flr-container {
+  width: 100%;
+  height: var(--flr-components-root-height);
+  border: 0.125rem solid var(--flr-gray);
+  border-radius: 0.375rem;
+  background-color: transparent;
+  position: relative;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}    
+
+.flr-select[data-v-538233db] .el-input__inner {
+  height: auto !important;
+  border: none !important;
+  background: transparent;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  font-family: Roboto, ui-sans-serif, system-ui;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(26 69 139 / var(--tw-text-opacity));
+}
+</style>
+
 </head>
 <body>
 <!-- partial:index.partial.html -->
+
 <div class="wrap">
 <form>
 <div class="form-header">
 <h2>Registration</h2>
 </div>
 <div class="form-body">
-<fieldset>
-<legend><i class="fa fa-user"></i> User Information</legend>
-<label for="fname">First Name</label>
-<input type="text" id="fname" name="fname" required>
-<label for="lname">Last Name</label>
-<input type="text" id="lname" name="lname" required>
-<label for="address">Address</label>
-<input type="text" id="address" name="address" required>
-<label for="city">City</label>
-<input type="text" id="city" name="city" required>
-<label for="state">State</label>
-<select id="state" name="state" required>
-<option value=""></option><option value="AL">Alabama</option><option value="AK">Alaska</option><option value="AZ">Arizona</option><option value="AR">Arkansas</option><option value="CA">California</option><option value="CO">Colorado</option><option value="CT">Connecticut</option><option value="DE">Delaware</option><option value="DC">District of Columbia</option><option value="FL">Florida</option><option value="GA">Georgia</option><option value="HI">Hawaii</option><option value="ID">Idaho</option><option value="IL">Illinois</option><option value="IN">Indiana</option><option value="IA">Iowa</option><option value="KS">Kansas</option><option value="KY">Kentucky</option><option value="LA">Louisiana</option><option value="ME">Maine</option><option value="MD">Maryland</option><option value="MA">Massachusetts</option><option value="MI">Michigan</option><option value="MN">Minnesota</option><option value="MS">Mississippi</option><option value="MO">Missouri</option><option value="MT">Montana</option><option value="NE">Nebraska</option><option value="NV">Nevada</option><option value="NH">New Hampshire</option><option value="NJ">New Jersey</option><option value="NM">New Mexico</option><option value="NY">New York</option><option value="NC">North Carolina</option><option value="ND">North Dakota</option><option value="OH">Ohio</option><option value="OK">Oklahoma</option><option value="OR">Oregon</option><option value="PA">Pennsylvania</option><option value="RI">Rhode Island</option><option value="SC">South Carolina</option><option value="SD">South Dakota</option><option value="TN">Tennessee</option><option value="TX">Texas</option><option value="UT">Utah</option><option value="VT">Vermont</option><option value="VA">Virginia</option><option value="WA">Washington</option><option value="WV">West Virginia</option><option value="WI">Wisconsin</option><option value="WY">Wyoming</option>
-</select>
-<label for="zip">Zipcode</label>
-<input type="text" id="zip" name="zip" required>
-</fieldset>
-<fieldset>
-<legend><i class="fa fa-lock"></i> Account Login</legend>
-<label for="email">Email</label>
-<input type="email" id="email" name="email" required>
-<label for="cr_password">Create Password</label>
-<input type="password" id="cr_password" name="cr_password" required>
-<label for="conf_password">Confirm Password</label>
-<input type="password" id="conf_password" name="conf_password" required>
-</fieldset>
-<fieldset class="sub-opts">
-<legend><i class="fa fa-tags"></i> Subscription Options</legend>
-<input type="radio" name="subscription" value="free" id="free">
-<div class="sub-opt">
-<label class="sub-label" for="free"><i class="fa fa-check"></i> Free <span class="price">$0/mo.</span></label>
-</div>
-<input type="radio" name="subscription" value="deluxe" id="deluxe" checked required>
-<div class="sub-opt">
-<label class="sub-label" for="deluxe"><i class="fa fa-check"></i> Deluxe <span class="price">$5/mo.</span></label>
-</div>
-<input type="radio" name="subscription" value="premium" id="premium">
-<div class="sub-opt">
-<label class="sub-label" for="premium"><i class="fa fa-check"></i> Premium <span class="price">$10/mo.</span></label>
-</div>
-</fieldset>
-</div>
-<div class="form-footer">
-<input type="submit" value="Create Account">
+    <div data-v-538233db="" data-v-e7c8dcd0="" class="form-item"><div data-v-538233db="" class="flr-container flr-select active">
+        <div data-v-538233db="" class="el-select"><!---->
+            <div class="el-input el-input--suffix"><!---->
+                <input type="text" readonly="readonly" autocomplete="off" placeholder="" class="el-input__inner"><!---->
+                <span class="el-input__suffix">
+                    <span class="el-input__suffix-inner">
+                        <i class="el-select__caret el-input__icon el-icon-arrow-up"></i>
+                        <!----><!----><!----><!----><!---->
+                    </span>
+                <!---->
+                </span>
+                <!----><!---->
+            </div>
+        </div> 
+        <div data-v-538233db="" class="arrow">
+            <svg data-v-538233db="" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path data-v-538233db="" d="M4.50067 9.67462L11.9253 17.0992L19.3499 9.67462" stroke="#BCC4CD" stroke-width="2"></path>
+            </svg>
+        </div> 
+        <p data-v-538233db="" class="label">Province
+            <span data-v-538233db="" class="gf-ml-1 gf-text-error">*</span>
+        </p>
+    </div> 
+    <div data-v-538233db="" class="gf-overflow-y-hidden gf-transition-all" style="height: 0px; transition-duration: 200ms;">
+        <div class="gf-overflow-hidden">
+            <p data-v-538233db="" class="gf-text-xs gf-ml-1 gf-font-semibold gf-text-error">
+            This is a required field.
+            </p>
+        </div>
+    </div>
 </div>
 </form>
-</div>
-<!-- partial -->
+
+
 </body>
 </html>
