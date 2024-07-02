@@ -23,7 +23,7 @@
 
         <img src="header.jpg" width="100%" />
 
-        <div class="border rounded-3 p-3">
+        <div class="border rounded-3 p-3 mt-4">
             <H5>GPF X SAMSUNG</H5>
             <p>Kindly fill out this form for your Free GlobeFiber Prepaid</p>
             <p>Please nominate at least 2 addresses for serviceability check</p>
