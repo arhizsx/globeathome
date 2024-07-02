@@ -30,6 +30,13 @@
             <p>*Bundle of GFiber Prepaid will be on the serviceability of the nominated address</p>
         </div>
 
+        <div class="border rounded-3 p-3 mt-4">
+            <H5>Privacy Notice</H5>
+            <p>By completing and submitting this form, I allow GLOBE to collect and process the personal data I will provide for GFiber Prepaid and Samsung partnership, until September 2024, in accordance with the Data Privacy Act of 2012 and the Privacy Policy of Globe.</p>
+            <H5>Disclaimer</H5>
+            <p>This Samsung bundle offer is subject to the fiber serviceability of your nominated address.</p>
+            <p>The value of this bundle cannot be converted to cash in case of unsuccessful installation. Terms and conditions apply.</p>
+        </div>
     </div>
 </body>
 
