@@ -14,7 +14,7 @@
 </style>
 
 </head>
-<body  class="d-flex align-items-center justify-content-center ">
+<body  class="d-flex align-items-center justify-content-center container">
     <div style="width: 400px; margin: auto;">
         <select class="form-control">
             <option>c</option>
